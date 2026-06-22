@@ -3,5 +3,17 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.preflight': {
+          '*, ::before, ::after': {
+            boxSizing: 'border-box',
+            margin: 0,
+            padding: 0,
+          },
+        },
+      });
+    },
+  ],
 };

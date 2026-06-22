@@ -4,7 +4,7 @@ import ImageSlider from './ImageSlider';
 
 const Banner = () => {
   return (
-    <motion.div className="relative w-full h-screen bg-black text-white flex items-center justify-center transition-opacity duration-500"
+    <motion.div className="relative w-full h-screen bg-black text-white flex items-center justify-center transition-opacity duration-500 .preflight"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}>

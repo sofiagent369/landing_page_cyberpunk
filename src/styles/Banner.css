@@ -1,5 +1,5 @@
 .Banner {
-  @apply relative w-full h-screen bg-black text-white flex items-center justify-center transition-opacity duration-500;
+  @apply relative w-full h-screen bg-black text-white flex items-center justify-center transition-opacity duration-500 .preflight;
 }
 
 h1 {
