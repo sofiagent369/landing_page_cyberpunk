@@ -14,5 +14,13 @@
     }
   ],
   "decisions": [],
-  "file_map": {}
+  "file_map": {
+    "frontend_expert": [
+      "src/components/Banner.js",
+      "src/pages/index.js",
+      "src/styles/tailwind.config.js",
+      "src/styles/global.css",
+      "src/styles/Banner.css"
+    ]
+  }
 }

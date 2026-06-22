@@ -51,7 +51,7 @@
       "title": "Tarea 004: Incorporación de animaciones",
       "description": "Incorporar animaciones CSS o JavaScript para darle movimiento y vida a la landing page. Esto incluye efectos de entrada, transiciones y desaparición.",
       "assigned_to": "frontend_expert",
-      "status": "failed",
+      "status": "in_progress",
       "priority": 4,
       "dependencies": [
         "task_003"
@@ -143,5 +143,5 @@
       "completed_at": null
     }
   ],
-  "updated_at": "2026-06-22T13:38:59.027925"
+  "updated_at": "2026-06-22T13:44:37.132975"
 }
