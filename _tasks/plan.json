@@ -1,0 +1,92 @@
+{
+  "project_name": "landing_page_cyberpunk",
+  "description": "Crear una landing page con temática ciberpunk y estilo neon que incluya animaciones y funcionalidad avanzada.",
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS"
+  ],
+  "tasks": [
+    {
+      "title": "Tarea 001: Diseño inicial",
+      "description": "Diseñar el esquema de la landing page en base a los requisitos del cliente. Esto incluye elementos como banner, sección principal con descripción y llamada a la acción, y footer.",
+      "assigned_to": "ui_expert",
+      "priority": 1
+    },
+    {
+      "title": "Tarea 002: Creación de componentes básicos",
+      "description": "Crear componentes HTML básicos para el banner y la sección principal. Incluir elementos como imágenes, texto y botones.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Tarea 003: Implementación de estilo",
+      "description": "Aplicar estilos CSS utilizando Tailwind CSS para darle el look ciberpunk y neon. Esto incluye colores, animaciones y efectos visuales.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_002"
+      ],
+      "priority": 3
+    },
+    {
+      "title": "Tarea 004: Incorporación de animaciones",
+      "description": "Incorporar animaciones CSS o JavaScript para darle movimiento y vida a la landing page. Esto incluye efectos de entrada, transiciones y desaparición.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_003"
+      ],
+      "priority": 4
+    },
+    {
+      "title": "Tarea 005: Funcionalidad avanzada (opcional)",
+      "description": "Agregar funcionalidades adicionales como carrousel de imágenes, interacción con el usuario y botones que redirigan a otras páginas.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_004"
+      ],
+      "priority": 5
+    },
+    {
+      "title": "Tarea 006: Integración de Next.js (opcional)",
+      "description": "Adaptar el proyecto para funcionar con Next.js, que ofrece ventajas en rendimiento y SEO.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_005"
+      ],
+      "priority": 6
+    },
+    {
+      "title": "Tarea 007: Testing y depuración",
+      "description": "Realizar testing para asegurar que la landing page funciona correctamente en diferentes navegadores y dispositivos. Resolver cualquier problema encontrado.",
+      "assigned_to": "tools_api_agent",
+      "dependencies": [
+        "task_006"
+      ],
+      "priority": 7
+    },
+    {
+      "title": "Tarea 008: Preparación del ambiente de producción (opcional)",
+      "description": "Configurar el proyecto para su despliegue en una plataforma de hosting o CDN.",
+      "assigned_to": "tools_api_agent",
+      "dependencies": [
+        "task_007"
+      ],
+      "priority": 8
+    },
+    {
+      "title": "Tarea 009: Cierre del proyecto",
+      "description": "Confeccionar el README.md para facilitar la documentación y la colaboración en el futuro.",
+      "assigned_to": "writer_agent",
+      "dependencies": [
+        "task_008"
+      ],
+      "priority": 9
+    }
+  ]
+}

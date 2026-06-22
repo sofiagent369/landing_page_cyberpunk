@@ -1,0 +1,147 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Tarea 001: Diseño inicial",
+      "description": "Diseñar el esquema de la landing page en base a los requisitos del cliente. Esto incluye elementos como banner, sección principal con descripción y llamada a la acción, y footer.",
+      "assigned_to": "ui_expert",
+      "status": "completed",
+      "priority": 1,
+      "dependencies": [],
+      "output_files": [],
+      "output_summary": "Explicación de la tarea:\nLa tarea es diseñar el esquema de una landing page ciberpunk con un estilo neon y funcionalidad avanzada. Se utilizará HTML, CSS (con custom properties), JavaScript, React, Next.js y Tailwind CSS.\n\nEstos archivos se generarán para el proyecto \"landing_page_cyberpunk\":\n\n1. sr",
+      "created_at": "2026-06-22T13:11:28.235311",
+      "started_at": "2026-06-22T13:11:28.872015",
+      "completed_at": "2026-06-22T13:16:34.691417"
+    },
+    {
+      "id": "task_002",
+      "title": "Tarea 002: Creación de componentes básicos",
+      "description": "Crear componentes HTML básicos para el banner y la sección principal. Incluir elementos como imágenes, texto y botones.",
+      "assigned_to": "frontend_expert",
+      "status": "completed",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "### Explicación de la Tarea\n\nLa tarea actual es crear componentes HTML básicos para el banner y la sección principal de la landing page ciberpunk. Estos componentes serán fundamentales para construir el diseño inicial de la página.\n\n### Archivos Generados:\n\n#### 1. src/components/Banner.js\n\n```jsx\n/",
+      "created_at": "2026-06-22T13:11:28.240354",
+      "started_at": "2026-06-22T13:16:36.951063",
+      "completed_at": "2026-06-22T13:19:59.792260"
+    },
+    {
+      "id": "task_003",
+      "title": "Tarea 003: Implementación de estilo",
+      "description": "Aplicar estilos CSS utilizando Tailwind CSS para darle el look ciberpunk y neon. Esto incluye colores, animaciones y efectos visuales.",
+      "assigned_to": "frontend_expert",
+      "status": "completed",
+      "priority": 3,
+      "dependencies": [
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "Aquí tienes la explicación de las tareas completadas por otros agentes y el contenido necesario para completar la tarea 003: Implementación de estilo.\n\n### Explicación de Tarea\n\nLa tarea actual es aplicar estilos CSS utilizando Tailwind CSS para darle el look ciberpunk y neon a la landing page. Esto",
+      "created_at": "2026-06-22T13:11:28.243628",
+      "started_at": "2026-06-22T13:20:02.099262",
+      "completed_at": "2026-06-22T13:23:56.729489"
+    },
+    {
+      "id": "task_004",
+      "title": "Tarea 004: Incorporación de animaciones",
+      "description": "Incorporar animaciones CSS o JavaScript para darle movimiento y vida a la landing page. Esto incluye efectos de entrada, transiciones y desaparición.",
+      "assigned_to": "frontend_expert",
+      "status": "failed",
+      "priority": 4,
+      "dependencies": [
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "Error de IA: ERROR_AI (Ollama): HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=900)",
+      "created_at": "2026-06-22T13:11:28.243628",
+      "started_at": "2026-06-22T13:23:58.994535",
+      "completed_at": null
+    },
+    {
+      "id": "task_005",
+      "title": "Tarea 005: Funcionalidad avanzada (opcional)",
+      "description": "Agregar funcionalidades adicionales como carrousel de imágenes, interacción con el usuario y botones que redirigan a otras páginas.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 5,
+      "dependencies": [
+        "task_004"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-22T13:11:28.243628",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_006",
+      "title": "Tarea 006: Integración de Next.js (opcional)",
+      "description": "Adaptar el proyecto para funcionar con Next.js, que ofrece ventajas en rendimiento y SEO.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 6,
+      "dependencies": [
+        "task_005"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-22T13:11:28.250964",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_007",
+      "title": "Tarea 007: Testing y depuración",
+      "description": "Realizar testing para asegurar que la landing page funciona correctamente en diferentes navegadores y dispositivos. Resolver cualquier problema encontrado.",
+      "assigned_to": "tools_api_agent",
+      "status": "pending",
+      "priority": 7,
+      "dependencies": [
+        "task_006"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-22T13:11:28.250964",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_008",
+      "title": "Tarea 008: Preparación del ambiente de producción (opcional)",
+      "description": "Configurar el proyecto para su despliegue en una plataforma de hosting o CDN.",
+      "assigned_to": "tools_api_agent",
+      "status": "pending",
+      "priority": 8,
+      "dependencies": [
+        "task_007"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-22T13:11:28.250964",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_009",
+      "title": "Tarea 009: Cierre del proyecto",
+      "description": "Confeccionar el README.md para facilitar la documentación y la colaboración en el futuro.",
+      "assigned_to": "writer_agent",
+      "status": "pending",
+      "priority": 9,
+      "dependencies": [
+        "task_008"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-22T13:11:28.255648",
+      "started_at": null,
+      "completed_at": null
+    }
+  ],
+  "updated_at": "2026-06-22T13:38:59.027925"
+}
