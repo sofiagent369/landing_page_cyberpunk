@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import ImageSlider from './ImageSlider';
 
 const Banner = () => {
   return (
@@ -8,6 +9,7 @@ const Banner = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}>
       <h1 className="text-6xl font-extrabold leading-tight">Welcome to the Ciberpunk Lagoon</h1>
+      <ImageSlider />
     </motion.div>
   );
 };
